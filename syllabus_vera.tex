@@ -1,0 +1,176 @@
+\documentclass[11pt]{exam}
+
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{graphicx,tabularx}
+\usepackage{array}
+\usepackage{multicol,multirow}
+\usepackage{xcolor,xspace}
+\usepackage[inline]{enumitem}
+
+\usepackage[hidelinks]{hyperref}
+	\newcommand{\email}[1]{\texttt{\href{mailto:#1}{#1}}}
+	\newcommand{\link}[1]{\texttt{\href{#1}{#1}}}
+
+\usepackage{termcal}
+	\renewcommand{\calprintdate}{\small\monthname\ \ordinaldate}
+
+\usepackage[margin=.75in,top=0.5in,nohead,nofoot]{geometry}
+\pagestyle{empty}
+
+%\usepackage[latin1]{inputenc}
+
+% Palatino for main text and math
+\usepackage[osf,sc]{mathpazo}
+% Helvetica for sans serif (scaled to match size of Palatino)
+\usepackage[scaled=0.90]{helvet}
+% Bera Mono for monospaced (scaled to match size of Palatino)
+\usepackage[scaled=0.85]{beramono}
+
+\newcommand{\afakeline}{\textcolor{white}{a fake line here}}
+
+\begin{document}
+
+\begin{center}
+{\large 
+\textsc{%Math 110 
+Transition to Calculus}}\\
+\textsc{Summer 2020}\\[1em]
+\end{center}
+
+\smallskip
+
+\paragraph{Course Format:} Five-Week 20 Two-Hour Sessions
+
+\paragraph{Required Materials:}\afakeline\\[0.5em]
+\textbf{I. Textbook.} James Stewart, \textit{Calculus: Early Transcendental, 8th Edition} (ISBN 978-1-285-74155-0) \\[0.5em]
+\textbf{II. Handouts} 
+\begin{itemize}
+    \item{\bf Handout A}. Algebra Review
+    \item{\bf Handout B}. Notes on Graphs of Functions
+    \item{\bf Handout C}. Limits. Graphical Representations of Limits
+    \item{\bf Handout D}. Continuity
+    \item{\bf Handout NTF}. Notes on Transcendental Functions
+    \item {\em Clean Writing in Mathematics}
+    \item {\em Calculus Style Guide}
+\end{itemize}
+
+\paragraph{Goals and Content:}
+The course ``{\em Transition to Calculus\/}'' provides students with an integrative approach to {\bf Calculus I} (equivalently, {\bf AP Calculus AB}) that includes some necessary precalculus topics: review of algebra, functions--trigonometric, inverse trigonometric, exponential, and logarithmic functions. Calculus topics include limits, continuity, the definition of the derivative, differentiation, extrema, antiderivatives, and optimization problems. Upon the completion of the course ``{\em Transition to Calculus\/},'' students will: 
+\begin{enumerate}
+    \item Be able to perform complex algebraic manipulations
+    \item Be able to graph and compute with algebraic and transcendental functions
+    \item Understand conceptually limits and their relationship to the graph of the function
+    \item Understand conceptually the derivative and its relationship to the concept of ``{\em rate of change\/}''
+    \item Be able to calculate evaluate limits and calculate derivatives and antiderivatives
+    \item Be well-prepared for {\bf Calculus I} (or {\bf AP Calculus AB}).
+\end{enumerate}
+
+\paragraph{Written Style:}
+Thoughts are expressed by sentences, just so in mathematics.  
+Pay attention to the textbook: it is written in sentences.
+{\bfseries Your written work must be in complete sentences}.
+%Mathematical arguments will often use symbols to efficiently convey complex ideas, but these notions are still communicated through sentences.  
+Note ``1+1 = 2'' is a complete sentence (it has the subject ``1+1'', verb ``='', and predicate ``2''.)  
+Use mathematical symbols whenever appropriate.
+Your work also needs to be {\em neat\/} and {\em orderly\/} to be intelligible.
+See the essay, ``Clean Writing in Mathematics,'' from {\em Calculus: A Liberal Art\/}, by W.~M.~Priestly and the ``Calculus Style Guide.''
+Practice good style in all your work, including your scratch work. \\[2em]
+
+%It is important to clearly communicate solutions using appropriate mathematical symbols and complete sentences; pertinent work needs to be neat and orderly to be intelligible.  Taking time to be neat while working problems often eliminates careless mistakes and allows the writer (and ultimately, the audience) to focus on the main concept at hand.\\
+
+%\paragraph{Quizzes and Problem Sets:}
+%Most weeks, a small collection of problems will be assigned for a grade.  These will generally be completed outside of class, but occasionally students will be asked to complete them in class (much like a quiz).  These assignments serve as an incentive for students to keep current with the course material, as well as a means to provide formative feedback on solution technique and style in preparation for each test.  At least two of the lowest problem sets will be dropped for each student; the average of the remaining scores will be used to determine each student's overall problem set grade.
+
+%\small
+
+\vfill
+\newpage
+
+\begin{center}
+\textbf{\large TOPICS BY DAY}\\[2.5pt]
+\textbf{Transition to Calculus, Summer 2020}
+\end{center}
+
+\begin{calendar}{6/8/20}{5}
+
+%\date{11/27/2019}
+
+\setlength{\calwidth}{\linewidth}
+\setlength{\calboxdepth}{5.5em}
+\calday[Monday]{\classday}
+\calday[Tuesday]{\classday}
+\calday[Wednesday]{\classday}
+\calday[Thursday]{\classday}
+%\calday[Friday]{\classday}
+\skipday\skipday\skipday
+\small
+
+%Holidays/No Class
+\options{1/13/20}{\noclassday}
+\options{1/20/20}{\noclassday}
+\options{4/28/20}{\noclassday}
+\options{4/29/20}{\noclassday}
+\options{4/30/20}{\noclassday}
+\options{5/1/20}{\noclassday}
+\caltext{1/20/20}{\textsc{No Class}\\{\small (MLK Holiday)}}
+\caltext{3/9/20}{\textsc{No Class}\\{\small (Spring Break)}}
+\caltext{5/1/20}{\textbf{Final Exam}\\ TBA}
+%\caltext{5/1/20}{\textbf{Final Exam}\\ 08: 12/13 at 9\textsc{am}}
+
+%Course Calendar
+
+% Week 1: June 8-12 (4 meetings)
+ % 06/08 (M)
+ \caltexton{1}{Introduction and Calculus Readiness Test}
+ % 06/09 (T)
+ \caltexton{2}{Algebra Review: Common Factors and Simplifying (Handout A)}
+ % 06/10 (W)
+ \caltexton{3}{Algebra Review: Equations and Inequalities (Handout A)}
+ % 06/11 (R)
+ \caltexton{4}{Basic Graphs and Piecewise-Defined Functions (Handout B)}
+
+% Week 2: June 15-18 (4 meetings)
+ % 06/15 (M)
+ \caltexton{5}{Combining Functions; Transformations of Graphs}
+ % 06/16 (T)
+ \caltexton{6}{Limit of Functions; Calculating Limits (\S 2.2)}
+ % 06/17 (W)
+ \caltexton{7}{Continuity and Graphical Interpretations (\S 2.3)}
+ % 06/18 (R)
+ \caltexton{8}{Limits and Compositions}
+
+% Week 3: June 22-25 (4 meetings)
+ % 06/22 (M)
+ \caltexton{9}{Derivative of Algebraic Functions. Velocity, Acceleration, and Tangent Lines (\S2.7)}
+ % 06/23 (T)
+ \caltexton{10}{Derivative of Powers. The Product and Quotient Rules (\S\S3.1\&2)}
+ % 06/24 (W)
+ \caltexton{11}{Trigonometric Functions: Definitions, Basic Graphs, and Identities (NTF:\S\S A--C)}
+ % 06/25 (R)
+ \caltexton{12}{Trigonometric Equations and Inverse Trigonometric Functions (NTF:\S\S D\&E)}
+
+% Week 4: June 29--July 2 (4 meetings)
+ % 06/29 (M)
+ \caltexton{13}{Exponential and Logarithmic Functions (NTF \S F)}
+ % 06/30 (T)
+ \caltexton{14}{Exponential and Logarithmic Equations (NTF \S G)}
+ % 07/01 (W)
+ \caltexton{15}{Derivatives of Exponential and Trigonometric Functions}
+ % 07/02 (R)
+ \caltexton{16}{Chain Rule and Implicit Differentiation (\S3.4)}
+
+% Week 5: July 6--July 9 or July 13--16 (4 meetings)
+ % 06/29 (M)
+ \caltexton{17}{Derivative of Inverse Functions: Logarithmic and Inverse Trigonometric Functions (\S3.6)}
+ % 06/30 (T)
+ \caltexton{18}{Antiderivatives (\S5.4)}
+ % 07/01 (W)
+ \caltexton{19}{Monotonicity and Concavity (\S4.3)}
+ % 07/02 (R)
+ \caltexton{20}{Optimization Problems (\S4.4)}
+
+\end{calendar}
+
+
+
+\end{document}
