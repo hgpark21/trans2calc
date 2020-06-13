@@ -1,0 +1,44 @@
+\usepackage{amsmath,amssymb}
+
+\usepackage{fullpage}
+\usepackage{tikz}
+\usepackage{pdfpages}
+\usepackage[margin=1in,headsep=.25in]{geometry}
+
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+%\usepackage{lmodern}
+%\usepackage{times}
+%\usepackage{tgbonum}
+\usepackage{mathptmx}
+
+%\pointformat{[\textit{\themarginpoints\ points.}]}
+
+%\newcommand{\arcsin}{\mathrm{arcsin}}
+%\newcommand{\arccos}{\mathrm{arccos}}
+%\newcommand{\arctan}{\mathrm{arctan}}
+\newcommand{\arcsec}{\mathrm{arcsec}}
+\newcommand{\arccsc}{\mathrm{arccsc}}
+\newcommand{\arccot}{\mathrm{arccot}}
+
+\pagestyle{headandfoot}
+%\runningheadrule
+\firstpageheader{\scriptsize\coursenum}
+    {\scriptsize\testnum}
+    {\scriptsize\testdate}
+\runningheader{\scriptsize\coursenum}
+    {\scriptsize\testnum, Page \thepage\ of \numpages}
+    {\scriptsize\testdate}
+\firstpagefooter{}{}{}
+\runningfooter{}{}{}
+
+
+\newcommand{\CRTinstruction}{
+\begin{itemize}
+    \item Use {\em good style\/}: be sure to justify your answers, and write in complete sentences. 
+    \item Label {\em all important \textbf{features}} of all graphs: intercepts, vertices, asymptotes, and end points (if any). Give {\em both coordinates} for points.
+    \item Calculators are \textbf{not} allowed.
+\end{itemize}
+}
